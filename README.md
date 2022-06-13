@@ -1,7 +1,7 @@
 # Projeto Validação 
 Um projeto que valida os campos do formulário para que seja obrigatório o preenchimento.
 
-[<img src="src/images/validacao.gif">](https://jhonyfreitasdev.github.io/projeto-validacao-de-formulario/)
+[<img src="src/image/validacao.gif">](https://jhonyfreitasdev.github.io/projeto-validacao-de-formulario/)
 
 
 ## Tecnologias ultilizadas
