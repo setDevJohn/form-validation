@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03 - Validação</title>
+
+    <link rel="stylesheet" href="src/style/reset.css">
+    <link rel="stylesheet" href="src/style/global.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="informacoes">
+            <h1 class="titulo">Ficou com dúvida? <br> nos mande uma mensagem!</h1>
+
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form method="post" action="" class="formulario">
+            <div class="campos-de-input nome">
+                <input class="campo" type="text" name="nome" id="nome" value="" placeholder="Nome completo *">
+                <p class="obrigatorio">campo obrigatório</p>
+            </div>
+
+            <div class="campos-de-input email">
+                <input class="campo" type="text" name="email" id="email" value="" placeholder="Email *">
+                <p class="obrigatorio">campo obrigatório</p>
+            </div>
+
+            <div class="campos-de-input telefone">
+                <input class="campo" type="text" name="telefone" id="telefone" value="" placeholder="Telefone *">
+                <p class="obrigatorio">campo obrigatório</p>
+            </div>
+
+            <div class="campos-de-input mensagem">
+                <textarea class="campo" name="mensagem" id="mensagem" value="" cols="35" rows="6" placeholder="Mensagem *"></textarea>
+                <p class="obrigatorio">campo obrigatório</p>
+            </div>
+
+            <p>*campos obrigatórios</p>
+
+            <button type="button" id="btn-enviar">Enviar</button>
+            
+        </form>
+    </main>
+
+    <script src="src/js/validacao.js"></script>
+</body>
+
+</html>
