@@ -15,6 +15,7 @@
 }
 
 .informacoes .titulo{
+    margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
