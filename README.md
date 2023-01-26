@@ -2,6 +2,8 @@
 Um projeto que valida os campos do formulário para que seja obrigatório o preenchimento.
 
 ## 🔗 Acesso ao projeto
+<a href="https://jhonyfreitasdev.github.io/projeto-validacao-de-formulario/">Clique aqui para ir para a página</a>
+
 [<img src="src/image/validacao.gif">](https://jhonyfreitasdev.github.io/projeto-validacao-de-formulario)
 
 ## 🛠 Skills
